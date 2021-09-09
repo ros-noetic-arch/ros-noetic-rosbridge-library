@@ -21,7 +21,7 @@ makedepends=(
     ros-build-tools
     ${ros_makedepends[@]}
     python-pillow
-    python-bson
+    python-pymongo
 )
 
 ros_depends=(
@@ -38,7 +38,7 @@ ros_depends=(
 depends=(
     ${ros_depends[@]}
     python-pillow
-    python-bson
+    python-pymongo
 )
 
 _dir="rosbridge_suite-${pkgver}/rosbridge_library"
